@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "App", "App\App.vcxproj", "{1116C8F4-6DD0-47FD-95BA-B649277A211C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Omurice", "Omurice\Omurice.vcxproj", "{8DBC890B-AFE5-4C51-B615-0FD60B36DC5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DBC890B-AFE5-4C51-B615-0FD60B36DC5A}.Debug|x64.ActiveCfg = Debug|x64
+		{8DBC890B-AFE5-4C51-B615-0FD60B36DC5A}.Debug|x64.Build.0 = Debug|x64
+		{8DBC890B-AFE5-4C51-B615-0FD60B36DC5A}.Release|x64.ActiveCfg = Release|x64
+		{8DBC890B-AFE5-4C51-B615-0FD60B36DC5A}.Release|x64.Build.0 = Release|x64
+		{1116C8F4-6DD0-47FD-95BA-B649277A211C}.Debug|x64.ActiveCfg = Debug|x64
+		{1116C8F4-6DD0-47FD-95BA-B649277A211C}.Debug|x64.Build.0 = Debug|x64
+		{1116C8F4-6DD0-47FD-95BA-B649277A211C}.Release|x64.ActiveCfg = Release|x64
+		{1116C8F4-6DD0-47FD-95BA-B649277A211C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {957112A0-C427-418A-9671-BA74E7A979C4}
+	EndGlobalSection
+EndGlobal
