@@ -1,0 +1,3 @@
+[submodule "Omurice/vendor/spdlog"]
+	path = Omurice/vendor/spdlog
+	url = https://github.com/gabime/spdlog
