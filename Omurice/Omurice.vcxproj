@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Omurice\Log.h" />
     <ClInclude Include="src\Omurice.h" />
     <ClInclude Include="src\Omurice\Application.h" />
     <ClInclude Include="src\Omurice\Core.h" />
     <ClInclude Include="src\Omurice\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Omurice\Log.cpp" />
     <ClCompile Include="src\Omurice\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -62,6 +64,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>OM_BUILD_DLL;OM_PLATFORM_WINDOWS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Omurice\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

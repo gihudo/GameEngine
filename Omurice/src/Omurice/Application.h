@@ -1,8 +1,8 @@
 #pragma once
 #include "Core.h"
 
-namespace Omurice 
-{
+namespace Omurice {
+
 	class OM_API Application
 	{
 	public:
@@ -12,8 +12,6 @@ namespace Omurice
 		void Run();
 	};
 
-
-	// To be defined in a client
 	Application* CreateApplication();
 }
 
