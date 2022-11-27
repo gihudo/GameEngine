@@ -18,6 +18,9 @@ project "Omurice"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin/int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "ompch.h"
+	pchsource "Omurice/src/ompch.cpp"
+
 	files 
 	{
 		"%{prj.name}/src/**.h",
