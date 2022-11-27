@@ -4,6 +4,9 @@
     <Filter Include="Omurice">
       <UniqueIdentifier>{792BC0CB-E50A-3F67-EE22-CA3D5A81A5C8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Omurice\Events">
+      <UniqueIdentifier>{3D151599-29E3-089F-1277-79C5FEE3E403}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Omurice.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Omurice\EntryPoint.h">
       <Filter>Omurice</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Omurice\Events\ApplicationEvents.h">
+      <Filter>Omurice\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Omurice\Events\Event.h">
+      <Filter>Omurice\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Omurice\Events\KeyboardEvents.h">
+      <Filter>Omurice\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Omurice\Events\MouseEvents.h">
+      <Filter>Omurice\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Omurice\Log.h">
       <Filter>Omurice</Filter>
