@@ -18,4 +18,3 @@ Omurice::Application* Omurice::CreateApplication()
 {
 	return new OmuApp();
 }
-

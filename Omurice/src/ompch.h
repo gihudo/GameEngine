@@ -12,6 +12,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include "Omurice/Log.h"
+
 #ifdef OM_PLATFORM_WINDOWS
 	#include <Windows.h>
 #endif

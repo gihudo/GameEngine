@@ -1,3 +1,6 @@
 [submodule "Omurice/vendor/spdlog"]
 	path = Omurice/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Omurice/vendor/GLFW"]
+	path = Omurice/vendor/GLFW
+	url = https://github.com/glfw/glfw
