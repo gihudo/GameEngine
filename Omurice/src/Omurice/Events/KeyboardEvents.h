@@ -37,16 +37,16 @@ namespace Omurice
 		bool m_IsRepeat;
 	};
 
-	class OM_API KeyPressedEvent : public KeyEvent
+	class OM_API KeyReleasedEvent : public KeyEvent
 	{
 	public:
-		KeyPressedEvent(int keyCode, bool isRepeat)
+		KeyReleasedEvent(int keyCode)
 			:KeyEvent(keyCode) {}
 
 		std::string ToString() const override
 		{
 			std::stringstream strstream;
-			strstream << "KeyPressedEvent: " << GetKeyCode();
+			strstream << "KeyReleasedEvent: " << GetKeyCode();
 			return strstream.str();
 		}
 

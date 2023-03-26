@@ -2,6 +2,10 @@
 #include "Omurice/Window.h"
 #include <GLFW/glfw3.h>
 
+#include "Omurice/Events/ApplicationEvents.h"
+#include "Omurice/Events/KeyboardEvents.h"
+#include "Omurice/Events/MouseEvents.h"
+
 namespace Omurice
 {
 	class WindowsWindow : public Window

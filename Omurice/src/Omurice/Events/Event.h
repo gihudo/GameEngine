@@ -11,20 +11,20 @@ namespace Omurice
 		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled
 	};
 
-	enum EventCategory 
+	enum EventCategory
 	{
 		None = 0,
-		EventCategoryInput             = 0b00001,
-		EventCategoryKeyboard          = 0b00010,
-		EventCategoryMouse             = 0b00100,
-		EventCategoryMouseButton       = 0b01000,
-		EventCategoryApplication       = 0b10000
+		EventCategoryInput = 0b00001,
+		EventCategoryKeyboard = 0b00010,
+		EventCategoryMouse = 0b00100,
+		EventCategoryMouseButton = 0b01000,
+		EventCategoryApplication = 0b10000
 	};
 
 #define EVENT_CLASS_TYPE(type) static EventType GetStaticType() { return EventType::##type; }\
 							   EventType GetEventType() const override { return GetStaticType(); }\
-							   virtual const char* GetName() const override { return #type; };
-	 
+							   virtual const char* GetName() const override { return #type; }
+
 #define EVENT_CLASS_CATEGORY(category) virtual int GetCategoryFlags() const override { return category; }
 
 	class OM_API Event

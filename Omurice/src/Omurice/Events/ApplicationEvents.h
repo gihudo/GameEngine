@@ -56,7 +56,7 @@ namespace Omurice
 		std::string ToString() const override
 		{
 			std::stringstream strstream;
-			strstream << "WindowCloseEvent: ";
+			strstream << "WindowCloseEvent";
 			return strstream.str();
 		}
 
@@ -72,7 +72,7 @@ namespace Omurice
 		std::string ToString() const override
 		{
 			std::stringstream strstream;
-			strstream << "WindowFocusEvent: ";
+			strstream << "WindowFocusEvent";
 			return strstream.str();
 		}
 

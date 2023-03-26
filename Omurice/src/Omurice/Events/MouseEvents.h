@@ -61,10 +61,10 @@ namespace Omurice
 		int m_Button;
 	};
 
-	class OM_API MouseButtonPressed : public MouseButton
+	class OM_API MouseButtonPressedEvent : public MouseButton
 	{
 	public:
-		MouseButtonPressed(int button)
+		MouseButtonPressedEvent(int button)
 			:MouseButton(button) {}
 		
 		std::string ToString() const override
@@ -77,10 +77,10 @@ namespace Omurice
 		EVENT_CLASS_TYPE(MouseButtonPressed)
 	};
 
-	class OM_API MouseButtonReleased : public MouseButton
+	class OM_API MouseButtonReleasedEvent : public MouseButton
 	{
 	public:
-		MouseButtonReleased(int button)
+		MouseButtonReleasedEvent(int button)
 			:MouseButton(button) {}
 
 		std::string ToString() const override
